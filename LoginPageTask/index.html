@@ -15,20 +15,35 @@
 <img src="https://incubateind.com/images/IncubateIND%20Black.png" class="logo" alt="">
   <!-- Beautify This -->
   <div class="log-form">
-    <h2>Enter your details</h2>
-    <form>
-      <input type="text" title="username" placeholder="username" />
-      <input type="email" title="email" placeholder="email">
-      <input type="password" title="password" placeholder="password" />
-      <input type="password" title="cnfpassword" placeholder="confirm password" />
-      <textarea name="message" id="message" cols="35" rows="4" placeholder="enter message"></textarea>
-      <p>Age</p>
+   
+     <h1>LOGIN</h1>
+    
+
+     <h2>Enter your details:</h2>
+     <form>
+      <label for="username"><b style="color:white">Username</b></label><br>
+      <input type="text" title="username" placeholder="username" id="user" required ><br><br>
+      <label for="email"><b style="color:white">Email</b></label><br>
+      <input type="email" title="email" placeholder="email" id="email" required><br><br>
+      <label for="phone"><b style="color:white ;">Phone no</b></label><br>
+      <input type="number" title="phone" placeholder="Enter phone no" id="phno" required onblur="val()"><br>
+      <span id="message"></span>
+      <br><br>
+      <label for="password"><b style="color:white">Password</b></label><br>
+      <input type="password" title="password" placeholder="password" required id="pass"><br><br>
+      <label for="cpass"><b style="color:white">Confirm password</b></label><br>
+      <input type="password" title="cnfpassword" placeholder="confirm password" required id="cpass" onblur="val1()"><br><br>
+      <label for="text"><b style="color:white">Message</b></label><br>
+      <textarea name="message" id="message" cols="35" rows="4" placeholder="enter message" id="message1"></textarea>
+      <p style="color:white;">Age</p>
       <input type="radio" id="above" name="age" value="above">
-      <label for="above">Above 18</label>
+      <label for="above"><b style="color:white" >Above 18<b></b></label>
       <input type="radio" id="below" name="age" value="below">
-      <label for="below">Below 18</label>
+      <label for="below">Below 18</label><br><br>
       <button type="submit" class="btn">Submit</button>
-    </form>
+     </form>
+    
+    
   </div>
   <!-- Beautify Ends -->
 </body>
