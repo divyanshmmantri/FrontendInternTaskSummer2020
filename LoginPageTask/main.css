@@ -44,57 +44,10 @@ h2 {
 form {
   display: block;
   text-align: center;
-  width: 100%;
+  width: 1
 }
 
 /* ========================WRITE YOUR CSS FROM HERE======================== */
-body{
-  background-color:powderblue;
-}
-h1 {
-  text-align: center;
-  color:white;
-  font-style:italic;
-  
-}
-
-input[type=text] {
-  width: 200px;
-  padding: 20px;
-  height: 20px;
-  border-radius: 20px;
-}
-input[type=email] {
-  width: 200px;
-  padding: 20px;
-  height: 20px;
-  border-radius: 20px;
-
-}
-input[type=password] {
-  width: 200px;
-  padding: 20px;
-  height: 20px;
-  border-radius: 20px;
-
-}
-input[type=number] {
-  width: 200px;
-  padding: 20px;
-  height: 20px;
-  border-radius: 20px;
-
-}
-#message{
-  border-radius: 20px;
-}
-.btn{
-  background-color:black;
-  color:white;
-  padding:20px;
-  border-radius:20px ;
-  width: 200px;
-}
 
 
 
@@ -145,3 +98,54 @@ textarea.form-control
 }
 
 /* ========================WRITE YOUR CSS FROM HERE======================== */
+=======
+}
+body{
+  background-color:powderblue;
+}
+h1 {
+  text-align: center;
+  color:white;
+  font-style:italic;
+  
+}
+
+input[type=text] {
+  width: 200px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+input[type=email] {
+  width: 200px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 20px;
+
+}
+input[type=password] {
+  width: 200px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 20px;
+
+}
+input[type=number] {
+  width: 200px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 20px;
+
+}
+#message{
+  border-radius: 20px;
+}
+.btn{
+  background-color:black;
+  color:white;
+  padding:20px;
+  border-radius:20px ;
+  width: 200px;
+}
+
+
